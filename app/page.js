@@ -1,7 +1,10 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>Welcome to Splitly</div>
+    <div>Welcome to Splitly
+
+      <Button variant={"destructive"}>Hello World! </Button>
+    </div>
   );
 }
